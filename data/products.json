@@ -1,0 +1,145 @@
+{
+  "categories": [
+    {
+      "id": "pc-rakitan",
+      "name": "PC Rakitan",
+      "description": "PC siap pakai dengan spesifikasi tinggi"
+    },
+    {
+      "id": "hardware-pc",
+      "name": "Hardware PC",
+      "description": "Komponen komputer berkualitas tinggi"
+    },
+    {
+      "id": "networking",
+      "name": "Networking",
+      "description": "Peralatan jaringan profesional"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "AMD BattleField",
+      "category": "PC Ready",
+      "price": 15999000,
+      "stock": 5,
+      "image": "/amd pc.jpg?height=400&width=400",
+      "description": "PC gaming high-end dengan performa maksimal",
+      "specs": {
+        "cpu": "Ryzen 5 9600X",
+        "gpu": "RTX 5070 12GB GDDR7",
+        "ram": "32GB DDR5",
+        "storage": "1TB NVMe SSD",
+        "psu": "750W Gold"
+      }
+    },
+    {
+      "id": 2,
+      "name": "AMD Kill Em All",
+      "category": "PC Ready",
+      "price": 24999000,
+      "stock": 3,
+      "image": "/AMD 2.jpg?height=400&width=400",
+      "description": "PC Gaming High-End Dengan Performa Membunuh Game AAA",
+      "specs": {
+        "cpu": "Intel Core i9-13900K",
+        "gpu": "NVIDIA RTX 4090",
+        "ram": "64GB DDR5",
+        "storage": "2TB NVMe SSD",
+        "psu": "1200W Platinum"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Office PC Compact",
+      "category": "pc-rakitan",
+      "price": 5999000,
+      "stock": 10,
+      "image": "/placeholder.svg?height=400&width=400",
+      "description": "PC compact untuk kebutuhan office",
+      "specs": {
+        "cpu": "Intel Core i5-13600K",
+        "gpu": "Intel UHD Graphics",
+        "ram": "16GB DDR5",
+        "storage": "512GB NVMe SSD",
+        "psu": "500W"
+      }
+    },
+    {
+      "id": 4,
+      "name": "RTX 4090",
+      "category": "hardware-pc",
+      "price": 18999000,
+      "stock": 2,
+      "image": "/placeholder.svg?height=400&width=400",
+      "description": "GPU flagship NVIDIA untuk gaming dan rendering",
+      "specs": {
+        "memory": "24GB GDDR6X",
+        "interface": "PCIe 4.0",
+        "tdp": "450W",
+        "cooling": "Dual Fan"
+      }
+    },
+    {
+      "id": 5,
+      "name": "RTX 4070 Super",
+      "category": "hardware-pc",
+      "price": 8999000,
+      "stock": 8,
+      "image": "/placeholder.svg?height=400&width=400",
+      "description": "GPU mid-range dengan performa excellent",
+      "specs": {
+        "memory": "12GB GDDR6X",
+        "interface": "PCIe 4.0",
+        "tdp": "220W",
+        "cooling": "Dual Fan"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Intel Core i9-13900K",
+      "category": "hardware-pc",
+      "price": 7999000,
+      "stock": 6,
+      "image": "/placeholder.svg?height=400&width=400",
+      "description": "Processor flagship Intel generasi terbaru",
+      "specs": {
+        "cores": "24 cores",
+        "threads": "32 threads",
+        "base_clock": "3.0 GHz",
+        "boost_clock": "5.8 GHz"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Network Switch 48 Port",
+      "category": "networking",
+      "price": 4999000,
+      "stock": 4,
+      "image": "/placeholder.svg?height=400&width=400",
+      "description": "Switch jaringan profesional 48 port",
+      "specs": {
+        "ports": "48 x Gigabit Ethernet",
+        "bandwidth": "96 Gbps",
+        "management": "Managed",
+        "poe": "Supported"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Wireless Access Point Pro",
+      "category": "networking",
+      "price": 2999000,
+      "stock": 7,
+      "image": "/placeholder.svg?height=400&width=400",
+      "description": "Access point WiFi 6 profesional",
+      "specs": {
+        "standard": "WiFi 6 (802.11ax)",
+        "speed": "3.6 Gbps",
+        "coverage": "Up to 200m²",
+        "poe": "Supported"
+        
+      }
+    }
+  ]
+}
