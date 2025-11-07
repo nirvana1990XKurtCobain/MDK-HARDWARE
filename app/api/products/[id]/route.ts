@@ -1,12 +1,12 @@
 import products from "@/data/products.json"
 
-export default async function ProductDetailPage({
+export default function ProductDetailPage({
   params,
 }: {
-  params: Promise<{ id: string }>
+  params: { id: string }
 }) {
-  const { id } = await params
-  const product = products.products.find((p) => p.id === Number(id))
+
+  const product = products.products.find((p) => p.id === Number(params.id))
 
   if (!product) {
     return <h1 className="text-center mt-10 text-red-500">Produk tidak ditemukan</h1>
