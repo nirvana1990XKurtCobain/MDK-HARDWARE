@@ -20,10 +20,10 @@
     {
       "id": 1,
       "name": "AMD BattleField",
-      "category": "PC Ready",
+      "category": "pc-rakitan",
       "price": 15999000,
       "stock": 5,
-      "image": "/amd pc.jpg?height=400&width=400",
+      "image": "/AMD 2.jpg?height=400&width=400",
       "description": "PC gaming high-end dengan performa maksimal",
       "specs": {
         "cpu": "Ryzen 5 9600X",
@@ -36,10 +36,10 @@
     {
       "id": 2,
       "name": "AMD Kill Em All",
-      "category": "PC Ready",
+      "category": "pc-rakitan",
       "price": 24999000,
       "stock": 3,
-      "image": "/AMD 2.jpg?height=400&width=400",
+      "image": "/amd pc.jpg?height=400&width=400",
       "description": "PC Gaming High-End Dengan Performa Membunuh Game AAA",
       "specs": {
         "cpu": "Intel Core i9-13900K",
@@ -51,33 +51,34 @@
     },
     {
       "id": 3,
-      "name": "Office PC Compact",
-      "category": "pc-rakitan",
+      "name": "RTX 5090 Gigabyte",
+      "category": "hardware-pc",
       "price": 5999000,
       "stock": 10,
-      "image": "/placeholder.svg?height=400&width=400",
-      "description": "PC compact untuk kebutuhan office",
+      "image": "/5090.png?height=400&width=400",
+      "description": "GPU seri terbaru untuk performa kelas atas",
       "specs": {
-        "cpu": "Intel Core i5-13600K",
-        "gpu": "Intel UHD Graphics",
-        "ram": "16GB DDR5",
-        "storage": "512GB NVMe SSD",
-        "psu": "500W"
+        "memory": "24GB GDDR7",
+        "interface": "PCIe 5.0",
+        "tdp": "350W",
+        "cooling": "Triple Fan"
       }
     },
     {
       "id": 4,
-      "name": "RTX 4090",
+      "name": "CORSAIR MP700 1TB PCIe 5.0 (Gen 5) x4 NVMe M.2",
       "category": "hardware-pc",
       "price": 18999000,
       "stock": 2,
-      "image": "/placeholder.svg?height=400&width=400",
+      "image": "/SSD.webp?height=400&width=400",
       "description": "GPU flagship NVIDIA untuk gaming dan rendering",
       "specs": {
-        "memory": "24GB GDDR6X",
+        "memory": "PCIe Gen 5.0 x4",
         "interface": "PCIe 4.0",
-        "tdp": "450W",
-        "cooling": "Dual Fan"
+        "Read CDM": "Up to 9,500MB/s",
+        "Write CDM": "up to 8,500MB/s",
+        "Size": "1TB"
+
       }
     },
     {
@@ -86,13 +87,13 @@
       "category": "hardware-pc",
       "price": 8999000,
       "stock": 8,
-      "image": "/placeholder.svg?height=400&width=400",
+      "image": "/4070.webp?height=400&width=400",
       "description": "GPU mid-range dengan performa excellent",
       "specs": {
         "memory": "12GB GDDR6X",
         "interface": "PCIe 4.0",
         "tdp": "220W",
-        "cooling": "Dual Fan"
+        "cooling": "Three Fan"
       }
     },
     {
@@ -101,7 +102,7 @@
       "category": "hardware-pc",
       "price": 7999000,
       "stock": 6,
-      "image": "/placeholder.svg?height=400&width=400",
+      "image": "/intelcore.webp?height=400&width=400",
       "description": "Processor flagship Intel generasi terbaru",
       "specs": {
         "cores": "24 cores",
@@ -112,11 +113,11 @@
     },
     {
       "id": 7,
-      "name": "Network Switch 48 Port",
+      "name": "Reyee 24 Port Gigabit L2 Managed POE Switch",
       "category": "networking",
       "price": 4999000,
       "stock": 4,
-      "image": "/placeholder.svg?height=400&width=400",
+      "image": "/switch 48.jpeg?height=400&width=400",
       "description": "Switch jaringan profesional 48 port",
       "specs": {
         "ports": "48 x Gigabit Ethernet",
@@ -127,18 +128,17 @@
     },
     {
       "id": 8,
-      "name": "Wireless Access Point Pro",
+      "name": "TP-LINK TL-WA801N 300Mbps Wireless N Access Point",
       "category": "networking",
-      "price": 2999000,
+      "price": 325000,
       "stock": 7,
-      "image": "/placeholder.svg?height=400&width=400",
-      "description": "Access point WiFi 6 profesional",
+      "image": "/tplink.webp?height=400&width=400",
+      "description": "Access point WiFi N profesional",
       "specs": {
-        "standard": "WiFi 6 (802.11ax)",
-        "speed": "3.6 Gbps",
-        "coverage": "Up to 200m²",
+        "standard": "IEEE 802.11b/g/n (2.4 GHz only)",
+        "speed": "300 Mbps",
+        "coverage": "Up to 100m²",
         "poe": "Supported"
-        
       }
     }
   ]

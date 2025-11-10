@@ -111,19 +111,30 @@ export default function ProductDetailPage() {
               <p className="text-5xl font-bold gradient-text">
                 Rp {product.price.toLocaleString("id-ID")}
               </p>
-            </div>
 
-            <div className="mb-8 p-4 bg-background-secondary rounded-lg border border-border">
-              <p className="text-sm text-foreground-secondary mb-1">
-                Ketersediaan Stok
-              </p>
-              <p className="font-semibold">
+              {/* stock kecil di bawah harga */}
+              <p className="text-sm mt-2">
+                Stok: {" "}
                 {product.stock > 0 ? (
                   <span className="text-success">{product.stock} unit tersedia</span>
                 ) : (
-                  <span className="text-error">Stok habis</span>
+                  <span className="text-error">Habis</span>
                 )}
               </p>
+            </div>
+
+            {/* Replace STOCK BOX → become SPEC BOX */}
+            <div className="mb-8 p-4 bg-background-secondary rounded-lg border border-border">
+              <p className="text-sm text-foreground-secondary mb-2">Spesifikasi Produk</p>
+
+              <div className="space-y-1">
+                {Object.entries(product.specs).map(([key, value]) => (
+                  <div key={key} className="flex justify-between text-sm">
+                    <span className="capitalize text-foreground-secondary">{key}</span>
+                    <span className="font-semibold">{value}</span>
+                  </div>
+                ))}
+              </div>
             </div>
 
             <div className="mb-8 flex items-center gap-4">
