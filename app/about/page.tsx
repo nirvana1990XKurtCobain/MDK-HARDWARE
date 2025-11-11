@@ -81,7 +81,7 @@ export default function AboutPage() {
           <h2 className="text-4xl font-bold mb-12">Tim Kami</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: "Marchel Chris", role: "Founder & CEO" },
+              { name: "Marchel Chris Tiofan", role: "Founder & CEO" },
               { name: "Satria Aulya Ramadhan", role: "Head of Operations" },
               { name: "Dani Cahyadi", role: "Marketing Specialist" },
               { name: "Radian Mandala Putra", role: "Technical Support" },

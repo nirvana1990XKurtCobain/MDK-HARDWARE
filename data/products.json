@@ -126,7 +126,7 @@
         "poe": "Supported"
       }
     },
-    {
+        {
       "id": 8,
       "name": "TP-LINK TL-WA801N 300Mbps Wireless N Access Point",
       "category": "networking",
@@ -139,6 +139,22 @@
         "speed": "300 Mbps",
         "coverage": "Up to 100m²",
         "poe": "Supported"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Motherboard ASUS TUF H470 PRO GAMING WIFI",
+      "category": "hardware-pc",
+      "price": 2350000,
+      "stock": 5,
+      "image": "/mobo asus.webp?height=400&width=400",
+      "description": "Motherboard gaming seri TUF dengan Wi-Fi built in, stabil dan durable untuk Intel Gen 10",
+      "specs": {
+      "chipset": "Intel H470",
+      "socket": "LGA 1200",
+      "form_factor": "ATX",
+      "memory_support": "Up to 128GB DDR4",
+      "network": "Intel Wi-Fi 6 + 2.5G LAN"
       }
     }
   ]
