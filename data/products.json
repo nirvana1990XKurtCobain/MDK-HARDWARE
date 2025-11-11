@@ -3,17 +3,17 @@
     {
       "id": "pc-rakitan",
       "name": "PC Rakitan",
-      "description": "PC siap pakai dengan spesifikasi tinggi"
+      "description": "PC siap pakai dengan spesifikasi tinggi dan performa optimal."
     },
     {
       "id": "hardware-pc",
       "name": "Hardware PC",
-      "description": "Komponen komputer berkualitas tinggi"
+      "description": "Komponen komputer berkualitas premium untuk performa terbaik."
     },
     {
       "id": "networking",
       "name": "Networking",
-      "description": "Peralatan jaringan profesional"
+      "description": "Perangkat jaringan profesional untuk konektivitas andal."
     }
   ],
   "products": [
@@ -24,7 +24,7 @@
       "price": 15999000,
       "stock": 5,
       "image": "/AMD 2.jpg?height=400&width=400",
-      "description": "PC gaming high-end dengan performa maksimal",
+      "description": "PC gaming kelas high-end dengan performa maksimal untuk pengalaman bermain tanpa kompromi.",
       "specs": {
         "cpu": "Ryzen 5 9600X",
         "gpu": "RTX 5070 12GB GDDR7",
@@ -40,7 +40,7 @@
       "price": 24999000,
       "stock": 3,
       "image": "/amd pc.jpg?height=400&width=400",
-      "description": "PC Gaming High-End Dengan Performa Membunuh Game AAA",
+      "description": "PC gaming ultra-premium dengan performa ekstrem untuk menaklukkan game AAA tanpa hambatan.",
       "specs": {
         "cpu": "Intel Core i9-13900K",
         "gpu": "NVIDIA RTX 4090",
@@ -56,7 +56,7 @@
       "price": 5999000,
       "stock": 10,
       "image": "/5090.png?height=400&width=400",
-      "description": "GPU seri terbaru untuk performa kelas atas",
+      "description": "Kartu grafis generasi terbaru untuk performa visual kelas atas dan efisiensi optimal.",
       "specs": {
         "memory": "24GB GDDR7",
         "interface": "PCIe 5.0",
@@ -71,14 +71,13 @@
       "price": 18999000,
       "stock": 2,
       "image": "/SSD.webp?height=400&width=400",
-      "description": "GPU flagship NVIDIA untuk gaming dan rendering",
+      "description": "SSD generasi terbaru dengan kecepatan transfer luar biasa untuk performa sistem maksimal.",
       "specs": {
         "memory": "PCIe Gen 5.0 x4",
         "interface": "PCIe 4.0",
         "Read CDM": "Up to 9,500MB/s",
-        "Write CDM": "up to 8,500MB/s",
+        "Write CDM": "Up to 8,500MB/s",
         "Size": "1TB"
-
       }
     },
     {
@@ -88,7 +87,7 @@
       "price": 8999000,
       "stock": 8,
       "image": "/4070.webp?height=400&width=400",
-      "description": "GPU mid-range dengan performa excellent",
+      "description": "GPU kelas menengah dengan kinerja luar biasa untuk gaming modern dan rendering halus.",
       "specs": {
         "memory": "12GB GDDR6X",
         "interface": "PCIe 4.0",
@@ -103,7 +102,7 @@
       "price": 7999000,
       "stock": 6,
       "image": "/intelcore.webp?height=400&width=400",
-      "description": "Processor flagship Intel generasi terbaru",
+      "description": "Prosesor unggulan Intel generasi terbaru dengan efisiensi dan performa tinggi untuk multitasking ekstrem.",
       "specs": {
         "cores": "24 cores",
         "threads": "32 threads",
@@ -118,7 +117,7 @@
       "price": 4999000,
       "stock": 4,
       "image": "/switch 48.jpeg?height=400&width=400",
-      "description": "Switch jaringan profesional 48 port",
+      "description": "Switch jaringan profesional dengan 24 port Gigabit, mendukung manajemen tingkat lanjut dan fitur PoE.",
       "specs": {
         "ports": "48 x Gigabit Ethernet",
         "bandwidth": "96 Gbps",
@@ -126,14 +125,14 @@
         "poe": "Supported"
       }
     },
-        {
+    {
       "id": 8,
       "name": "TP-LINK TL-WA801N 300Mbps Wireless N Access Point",
       "category": "networking",
       "price": 325000,
       "stock": 7,
       "image": "/tplink.webp?height=400&width=400",
-      "description": "Access point WiFi N profesional",
+      "description": "Access point Wi-Fi profesional dengan kecepatan tinggi dan jangkauan luas untuk koneksi stabil.",
       "specs": {
         "standard": "IEEE 802.11b/g/n (2.4 GHz only)",
         "speed": "300 Mbps",
@@ -148,13 +147,29 @@
       "price": 2350000,
       "stock": 5,
       "image": "/mobo asus.webp?height=400&width=400",
-      "description": "Motherboard gaming seri TUF dengan Wi-Fi built in, stabil dan durable untuk Intel Gen 10",
+      "description": "Motherboard gaming seri TUF dengan konektivitas Wi-Fi bawaan, menawarkan stabilitas tinggi dan daya tahan luar biasa untuk prosesor Intel Generasi ke-10.",
       "specs": {
-      "chipset": "Intel H470",
-      "socket": "LGA 1200",
-      "form_factor": "ATX",
-      "memory_support": "Up to 128GB DDR4",
-      "network": "Intel Wi-Fi 6 + 2.5G LAN"
+        "chipset": "Intel H470",
+        "socket": "LGA 1200",
+        "form_factor": "ATX",
+        "memory_support": "Up to 128GB DDR4",
+        "network": "Intel Wi-Fi 6 + 2.5G LAN"
+      }
+    },
+    {
+      "id": 10,
+      "name": "LG UltraGear 27″ OLED QHD 240Hz",
+      "category": "hardware-pc",
+      "price": 8999000,
+      "stock": 5,
+      "image": "/monitor-lg.webp?height=400&width=400",
+      "description": "Monitor gaming 27 inci seri UltraGear dengan panel OLED QHD (2560×1440), refresh rate 240Hz, waktu respons ultra cepat 0,03ms (GtG), serta dukungan NVIDIA G-SYNC dan AMD FreeSync Premium.",
+      "specs": {
+        "Panel Size(Inch)": "27 Inch",
+        "Panel Type": "OLED Flat",
+        "Panel Resolution": "2560 x 1440 (QHD)",
+        "Aspect Ratio": "16:9 Wide",
+        "Refresh rate:": "240 Hz"
       }
     }
   ]
